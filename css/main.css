@@ -58,3 +58,8 @@ nav a, nav a:visited {
   padding: .7em 1em .6em;
   border-radius: 8px;
 }
+
+nav a:hover, nav a:focus {
+  background-color: #000;
+  color: #fff;
+}
