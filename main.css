@@ -1,0 +1,58 @@
+html {
+  box-sizing: border-box;
+  font-family: 'Sans Serif', serif;
+  line-height: 1.5;
+  background-color: #e2e2e2;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 1.5rem;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1, h2, a {
+  font-family: 'Fira Sans', sans-serif;
+}
+
+h1 {
+  margin: 0;
+}
+
+h2 {
+  margin: 0 0 1.5rem;
+}
+
+header .logo {
+  width: 2.25em;
+  order: -1;
+  margin-right: .5rem;
+}
+
+header p {
+  margin: 0 auto;
+  font-size: 1.125rem;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
+  font-size: 1.125rem;
+}
+
+p {
+  margin: 0 0 auto;
+}
