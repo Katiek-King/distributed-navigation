@@ -2,30 +2,38 @@ html {
   box-sizing: border-box;
   font-family: sans-serif;
   line-height: 1.5;
-  background-color: #e2e2e2
+  background-color: #e2e2e2;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  margin: 0;
+  padding: 1rem;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 0;
 }
-h1 {
-  margin: ,5rem;
+
+header h1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
 }
+
 h1, h2, a {
   font-family: sans-serif;
+  margin: 5rem;
 }
 
-html {
-  font-family: sans-serif;
-  line-height: 1.5;
-}
-
-header .logo {
+header img {
   width: 2rem;
   order: -1;
   margin-right: .5rem;
